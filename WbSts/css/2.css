@@ -43,7 +43,21 @@ header a:hover{
     background-color:rgb(75, 51, 97);
     
 }
+footer{
+    background-color: rgb(75, 51, 97);
+}
 
+footer p{
+    margin: 0;
+    padding: 12px;
+    color: rgb(255, 255, 255);
+}
+footer .container{
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
 @media (min-width: 850px){
     header{
         position: fixed;
@@ -59,5 +73,8 @@ header a:hover{
         flex-direction: row;
         padding-bottom: 0;
         padding-right: 20px;
+    }
+    footer .container{
+        justify-content: flex-end;
     }
 }
